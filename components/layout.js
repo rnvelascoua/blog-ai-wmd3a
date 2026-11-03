@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Robert Velasco';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'Rhyles David Velasco';
+export const siteTitle = 'Rhyles David Velasco | Game Developer';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Portfolio of Rhyles David Velasco, aspiring game developer and gameplay programmer."
         />
         <meta
           property="og:image"
@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/profile.jpeg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -45,7 +45,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/images/profile.jpeg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
