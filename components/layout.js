@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Rhyles David Velasco';
-export const siteTitle = 'Rhyles David Velasco | Game Developer';
+const name = 'Rhyannah Sophia Velasco';
+export const siteTitle = 'Rhyannah Sophia Velasco | Profile';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Portfolio of Rhyles David Velasco, aspiring game developer and gameplay programmer."
+          content="Profile of Rhyannah Sophia Velasco, focused on family, continuous learning, and purposeful growth."
         />
         <meta
           property="og:image"
@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpeg"
+              src="/images/profile.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -45,7 +45,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpeg"
+                src="/images/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
